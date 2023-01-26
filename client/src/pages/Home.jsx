@@ -44,7 +44,7 @@ const Home = () => {
   const [searchTimeOut, setSearchTimeOut] = useState(null);
   const handleSearchChange = (e) => {
     e.preventDefault();
-    // clearTimeout(searchTimeOut)
+    clearTimeout(searchTimeOut);
     setSearchText(e.target.value);
 
     setSearchTimeOut(
@@ -62,7 +62,6 @@ const Home = () => {
     );
   };
 
-
   return (
     <section className="max-w-7xl mx-auto">
       <div>
@@ -76,13 +75,13 @@ const Home = () => {
       </div>
 
       <div className="mt-16">
-        <FormField 
-          labelName= "Search Posts"
-          type= "text"
-          name=  "text"
-          placeholder = "Search Posts"
-          value = {searchText}
-          handleChange = {handleSearchChange}
+        <FormField
+          labelName="Search Posts"
+          type="text"
+          name="text"
+          placeholder="Search Posts"
+          value={searchText}
+          handleChange={handleSearchChange}
         />
       </div>
       <div className="mt-10">

@@ -21,7 +21,7 @@ app.get("/", async (req, res) => {
 /* Starting the Server */
 const startServer = async () => {
   try {
-    connectDb("mongodb://localhost/aiimagedatabase");
+    connectDb("mongodb://localhost/aiimagedatabasex");
     app.listen(8000, () => {
       console.log("Server has started on port http://localhost:8000");
     });

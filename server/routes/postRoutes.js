@@ -8,9 +8,9 @@ const cl__api__key = "155573177836448";
 const cl__api__secret = "C7EXA2ZCIW5W5UVaCPFHwwXt2os";
 
 cloudinary.config({
-  cloud_name: process.env.cloud__name,
-  api_key: process.env.cl__api__key,
-  api_secret: process.env.cl__api__secret,
+  cloud_name: cloud__name,
+  api_key: cl__api__key,
+  api_secret: cl__api__secret,
 });
 
 //Get All Posts
@@ -36,12 +36,10 @@ router.route("/").post(async (req, res) => {
 
     res.status(200).json({ success: true, data: newPost });
   } catch (err) {
-    res
-      .status(500)
-      .json({
-        success: false,
-        message: "Unable to create a post, please try again",
-      });
+    res.status(500).json({
+      success: false,
+      message: "Unable to create a post, please try again",
+    });
   }
 });
 
