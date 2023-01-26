@@ -1,7 +1,7 @@
 const express = require('express');
 const { Configuration, OpenAIApi } = require('openai');
 
-const api__key = "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";
+const api__key = process.env.DALLE_KEY;
 const router = express.Router();
 
 const configuration = new Configuration({

@@ -1,9 +1,10 @@
 const express = require('express')
 const cors = require('cors')
 const connectDb = require("./mongodb/connect.js");
+const dotenv = require('dotenv')
 
 //helps to pull our env varibles envs
-// dotenv.config();
+dotenv.config();
 
 const app = express();
 
@@ -20,7 +21,7 @@ app.get("/", async (req, res) => {
 /* Starting the Server */
 const startServer = async () => {
   try {
-    connectDb("mongodb://localhost/aiimagedatabasex");
+    connectDb("mongodb://localhost/aiimagedatabase");
     app.listen(8000, () => {
       console.log("Server has started on port http://localhost:8000");
     });

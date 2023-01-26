@@ -44,7 +44,7 @@ const Home = () => {
   const [searchTimeOut, setSearchTimeOut] = useState(null);
   const handleSearchChange = (e) => {
     e.preventDefault();
-    clearTimeout(searchTimeOut)
+    // clearTimeout(searchTimeOut)
     setSearchText(e.target.value);
 
     setSearchTimeOut(
@@ -61,6 +61,8 @@ const Home = () => {
       }, 500)
     );
   };
+
+
   return (
     <section className="max-w-7xl mx-auto">
       <div>
