@@ -1,8 +1,6 @@
 <--------------------------------- FRONTEND ------------------------------>
 
 
-->-> Follow this code for getting an idea about the project structure and 
-
 1). Create a new folder and use vite to create an app.
 2). Download packages like react-router-dom and file-saver to save the files.
 3). Make folders
@@ -34,6 +32,3 @@ What you have learned
 7). Making functions and modular looking code.
 8). Grid making and also relative absolute and hidden in tailwind css usecase.
 9). Dark mode using Tailwind Css.
-10). Alan Ai.
-
-Use this project for referencing lot more things.
