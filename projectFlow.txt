@@ -1,0 +1,39 @@
+<--------------------------------- FRONTEND ------------------------------>
+
+
+->-> Follow this code for getting an idea about the project structure and 
+
+1). Create a new folder and use vite to create an app.
+2). Download packages like react-router-dom and file-saver to save the files.
+3). Make folders
+    a). components -> to store the components.
+    b). pages -> all the pages in the app.
+    c). utils -> all the functions which can be used througout the app.
+    d). assets -> folder to store images and other contents.
+    e). constants -> dummy data or some suggestion based data so that hardcode will be less as possible
+
+4). use semantic tags for better code.
+5). setup keep with you and you can refer to this code for setup of the react + tailwind project.
+6). making a component for form field so that you don't need to hardcode the input fields, from now onwards use this method for making form fields or even try to reduce the hardcode things and make your code reusable and modular.
+7). Conditional rendering shouls be proper and must be at right place.
+8). The division of home page and header along with the use of react routers should be properly done.
+
+<--------------------------------- BACKEND ------------------------------>
+
+1). If in the package.json you go and below description you add the type: "module", then you can use react like import and export in your backend based app.
+2). From now onwards follow this way to create the server for the backend.
+
+
+What you have learned
+1). How to create a template for entirley new full stack application.
+2). Setting things up like tailwind and all that.
+3). Using file Saver and reusable form field try to use the same strategy for all the other components as well if it is possbile instead of hardcoding it.
+4). Group hover in tailwind.
+5). Clean code for frontend and backend.
+6). Advanced conditional rendering.
+7). Making functions and modular looking code.
+8). Grid making and also relative absolute and hidden in tailwind css usecase.
+9). Dark mode using Tailwind Css.
+10). Alan Ai.
+
+Use this project for referencing lot more things.

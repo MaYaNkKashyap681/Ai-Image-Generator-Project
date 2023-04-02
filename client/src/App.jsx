@@ -6,6 +6,11 @@ import { Home, CreatePost } from "./pages/index.js";
 const App = () => {
   const [themeToggle, setThemeToggle] = useState(false);
 
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> 2c7282c (new commit 2)
   const handleThemeToggler = () => {
     setThemeToggle(themeToggle === true ? false : true);
     if (localStorage.theme === "dark" || themeToggle === true) {
